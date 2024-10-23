@@ -1,0 +1,9 @@
+repos:
+- repo: local
+  hooks:
+  - id: goober-id
+    name: goober-name 
+    entry: /Users/graham.schuckman/wiz-directory-scan.sh
+    language: script
+    files: ''
+    stages: [commit, push]
